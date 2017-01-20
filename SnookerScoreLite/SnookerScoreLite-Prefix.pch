@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  SnookerScoreMaster
+//
+//  Created by andrew glew on 19/05/2015.
+//  Copyright (c) 2015 andrew glew. All rights reserved.
+//
+
+//
+// Prefix header
+//
+// The contents of this file are implicitly
+// included at the beginning of every source file
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif

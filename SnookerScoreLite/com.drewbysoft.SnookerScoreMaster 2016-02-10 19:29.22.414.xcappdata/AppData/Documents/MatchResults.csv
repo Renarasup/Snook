@@ -1,0 +1,14 @@
+EntryID,BreakEndDT,Frame,Player,shotType,shotDetail1,shotDetail2,BallColor,Points,PotDT,pocketID
+1170,2016-02-10 19:28:06,1,n/a,FrameStart,n/a,n/a,n/a,0,n/a,n/a
+1171,2016-02-10 19:28:47,1,N.E Body,Potted,Medium,Average,RED,1,2016-02-10 19:28:46,0
+1171,2016-02-10 19:28:47,1,N.E Body,Potted,Medium,Average,BROWN,4,2016-02-10 19:28:46,0
+1171,2016-02-10 19:28:47,1,N.E Body,Potted,Medium,Average,RED,1,2016-02-10 19:28:46,0
+1171,2016-02-10 19:28:47,1,N.E Body,Potted,Medium,Average,BLUE,5,2016-02-10 19:28:47,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,RED,1,2016-02-10 19:28:48,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,BLUE,5,2016-02-10 19:28:48,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,RED,1,2016-02-10 19:28:48,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,PINK,6,2016-02-10 19:28:49,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,RED,1,2016-02-10 19:28:49,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,BLACK,7,2016-02-10 19:28:49,0
+1172,2016-02-10 19:28:50,1,A.N. Other,Potted,Medium,Average,RED,1,2016-02-10 19:28:50,0
+1173,2016-02-10 19:28:59,2,n/a,MatchEnd,n/a,n/a,n/a,0,n/a
