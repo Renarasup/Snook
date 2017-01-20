@@ -53,6 +53,14 @@
 		3A61EEC11C3EDB0700BEF957 /* playerDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A61EEC01C3EDB0700BEF957 /* playerDetailVC.m */; };
 		3A61EEC31C3EE40700BEF957 /* Snooker_balls_triangled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A61EEC21C3EE40700BEF957 /* Snooker_balls_triangled.png */; };
 		3A6311051C5C196E007EC892 /* AvatarV.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6311041C5C196E007EC892 /* AvatarV.m */; };
+		3A6523D71E32BD2000BA35BA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523D61E32BD2000BA35BA /* AdSupport.framework */; };
+		3A6523DE1E32BE5900BA35BA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523D81E32BE5900BA35BA /* AudioToolbox.framework */; };
+		3A6523DF1E32BE5900BA35BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523D91E32BE5900BA35BA /* CoreGraphics.framework */; };
+		3A6523E01E32BE5900BA35BA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523DA1E32BE5900BA35BA /* MediaPlayer.framework */; };
+		3A6523E11E32BE5900BA35BA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523DB1E32BE5900BA35BA /* MessageUI.framework */; };
+		3A6523E21E32BE5900BA35BA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523DC1E32BE5900BA35BA /* StoreKit.framework */; };
+		3A6523E31E32BE5900BA35BA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523DD1E32BE5900BA35BA /* SystemConfiguration.framework */; };
+		3A6523E51E32BED100BA35BA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6523E41E32BED100BA35BA /* CoreTelephony.framework */; };
 		3A7379441DF372D400E5D556 /* IntroPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7379431DF372D400E5D556 /* IntroPVC.m */; };
 		3A7379471DF3F8BB00E5D556 /* helpPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7379461DF3F8BB00E5D556 /* helpPageVC.m */; };
 		3A7ADE0F1C4A23D30014B847 /* matchStatisticsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ADE0E1C4A23D30014B847 /* matchStatisticsVC.m */; };
@@ -188,6 +196,14 @@
 		3A61EEC21C3EE40700BEF957 /* Snooker_balls_triangled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snooker_balls_triangled.png; sourceTree = "<group>"; };
 		3A6311031C5C196E007EC892 /* AvatarV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarV.h; sourceTree = "<group>"; };
 		3A6311041C5C196E007EC892 /* AvatarV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarV.m; sourceTree = "<group>"; };
+		3A6523D61E32BD2000BA35BA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3A6523D81E32BE5900BA35BA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3A6523D91E32BE5900BA35BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A6523DA1E32BE5900BA35BA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3A6523DB1E32BE5900BA35BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3A6523DC1E32BE5900BA35BA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3A6523DD1E32BE5900BA35BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A6523E41E32BED100BA35BA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3A7379421DF372D400E5D556 /* IntroPVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroPVC.h; sourceTree = "<group>"; };
 		3A7379431DF372D400E5D556 /* IntroPVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroPVC.m; sourceTree = "<group>"; };
 		3A7379451DF3F8BB00E5D556 /* helpPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpPageVC.h; sourceTree = "<group>"; };
@@ -227,7 +243,6 @@
 		3AAFA8D41E2A7DBC00458493 /* playerListingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerListingVC.m; sourceTree = "<group>"; };
 		3AAFA8D61E2A7E2B00458493 /* playerListingTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerListingTV.h; sourceTree = "<group>"; };
 		3AAFA8D71E2A7E2B00458493 /* playerListingTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerListingTV.m; sourceTree = "<group>"; };
-		3AAFA8D91E2AC15500458493 /* official-rules-of-the-game.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "official-rules-of-the-game.pdf"; path = "SnookerScoreMaster/official-rules-of-the-game.pdf"; sourceTree = SOURCE_ROOT; };
 		3AAFA8DF1E2B852200458493 /* PersistentBackgroundLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentBackgroundLabel.h; sourceTree = "<group>"; };
 		3AAFA8E01E2B852200458493 /* PersistentBackgroundLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistentBackgroundLabel.m; sourceTree = "<group>"; };
 		3AAFA8E61E2E89FD00458493 /* headToHeadListingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headToHeadListingVC.h; sourceTree = "<group>"; };
@@ -248,6 +263,7 @@
 		3ADBD1FF1C497758001876F2 /* embededMatchStatisticsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = embededMatchStatisticsVC.m; path = ../embededMatchStatisticsVC.m; sourceTree = "<group>"; };
 		3AEF7ECE1D3B4BFC001609A7 /* matchesTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matchesTV.h; sourceTree = "<group>"; };
 		3AEF7ECF1D3B4BFC001609A7 /* matchesTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matchesTV.m; sourceTree = "<group>"; };
+		508C57E39C33FB22AA35A0A1 /* Pods-SnookerScoreLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnookerScoreLite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnookerScoreLite/Pods-SnookerScoreLite.debug.xcconfig"; sourceTree = "<group>"; };
 		96D22D7E1A1FD58100E0ADE3 /* SnookerScoreLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnookerScoreLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D22D821A1FD58100E0ADE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D22D851A1FD58100E0ADE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -256,6 +272,8 @@
 		96D22D971A1FD58100E0ADE3 /* SnookerScoreLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnookerScoreLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D22D9C1A1FD58100E0ADE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D22D9D1A1FD58100E0ADE3 /* SnookerScoreMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnookerScoreMasterTests.m; sourceTree = "<group>"; };
+		DE8F27980AD7102A78B478A6 /* libPods-SnookerScoreLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnookerScoreLite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB925F393422246AD1094076 /* Pods-SnookerScoreLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnookerScoreLite.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnookerScoreLite/Pods-SnookerScoreLite.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +281,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6523E51E32BED100BA35BA /* CoreTelephony.framework in Frameworks */,
+				3A6523DE1E32BE5900BA35BA /* AudioToolbox.framework in Frameworks */,
+				3A6523DF1E32BE5900BA35BA /* CoreGraphics.framework in Frameworks */,
+				3A6523E01E32BE5900BA35BA /* MediaPlayer.framework in Frameworks */,
+				3A6523E11E32BE5900BA35BA /* MessageUI.framework in Frameworks */,
+				3A6523E21E32BE5900BA35BA /* StoreKit.framework in Frameworks */,
+				3A6523E31E32BE5900BA35BA /* SystemConfiguration.framework in Frameworks */,
+				3A6523D71E32BD2000BA35BA /* AdSupport.framework in Frameworks */,
 				3A6101861D3C1D33001F6BF6 /* SpriteKit.framework in Frameworks */,
 				3A6172E61BC96478004B9198 /* libsqlite3.tbd in Frameworks */,
 			);
@@ -395,7 +421,6 @@
 				3A9EB7811D3299300055A1CE /* HelpVC.m */,
 				3A61017B1D3B5B58001F6BF6 /* matchesVC.h */,
 				3A61017C1D3B5B58001F6BF6 /* matchesVC.m */,
-				3AAFA8D91E2AC15500458493 /* official-rules-of-the-game.pdf */,
 				3AAFA8D31E2A7DBC00458493 /* playerListingVC.h */,
 				3AAFA8D41E2A7DBC00458493 /* playerListingVC.m */,
 				3AAFA8E61E2E89FD00458493 /* headToHeadListingVC.h */,
@@ -442,7 +467,16 @@
 		3A6101831D3C1B19001F6BF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A6523E41E32BED100BA35BA /* CoreTelephony.framework */,
+				3A6523D81E32BE5900BA35BA /* AudioToolbox.framework */,
+				3A6523D91E32BE5900BA35BA /* CoreGraphics.framework */,
+				3A6523DA1E32BE5900BA35BA /* MediaPlayer.framework */,
+				3A6523DB1E32BE5900BA35BA /* MessageUI.framework */,
+				3A6523DC1E32BE5900BA35BA /* StoreKit.framework */,
+				3A6523DD1E32BE5900BA35BA /* SystemConfiguration.framework */,
+				3A6523D61E32BD2000BA35BA /* AdSupport.framework */,
 				3A6101841D3C1B19001F6BF6 /* SpriteKit.framework */,
+				DE8F27980AD7102A78B478A6 /* libPods-SnookerScoreLite.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -504,6 +538,7 @@
 				96D22D9A1A1FD58100E0ADE3 /* SnookerScoreLiteTests */,
 				96D22D7F1A1FD58100E0ADE3 /* Products */,
 				3A6101831D3C1B19001F6BF6 /* Frameworks */,
+				A3AA54D2A355672E98315F72 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -573,6 +608,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3AA54D2A355672E98315F72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				508C57E39C33FB22AA35A0A1 /* Pods-SnookerScoreLite.debug.xcconfig */,
+				FB925F393422246AD1094076 /* Pods-SnookerScoreLite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -580,10 +624,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D22DA11A1FD58100E0ADE3 /* Build configuration list for PBXNativeTarget "SnookerScoreLite" */;
 			buildPhases = (
+				80EDC7EF27B3056A76738296 /* [CP] Check Pods Manifest.lock */,
 				96D22D7A1A1FD58100E0ADE3 /* Sources */,
 				96D22D7B1A1FD58100E0ADE3 /* Frameworks */,
 				96D22D7C1A1FD58100E0ADE3 /* Resources */,
 				3AF50FD61E01CA0C00EA4D4E /* Embed Frameworks */,
+				68AD1878F4D0CE0E49E17C4B /* [CP] Embed Pods Frameworks */,
+				561A022310CC153DC9ACE811 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -692,6 +739,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		561A022310CC153DC9ACE811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnookerScoreLite/Pods-SnookerScoreLite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68AD1878F4D0CE0E49E17C4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnookerScoreLite/Pods-SnookerScoreLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80EDC7EF27B3056A76738296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96D22D7A1A1FD58100E0ADE3 /* Sources */ = {
@@ -849,6 +944,7 @@
 		};
 		96D22DA21A1FD58100E0ADE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508C57E39C33FB22AA35A0A1 /* Pods-SnookerScoreLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -862,11 +958,7 @@
 				INFOPLIST_FILE = SnookerScoreLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SnookerScoreLite",
-					"$(PROJECT_DIR)",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -876,6 +968,7 @@
 		};
 		96D22DA31A1FD58100E0ADE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB925F393422246AD1094076 /* Pods-SnookerScoreLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -889,11 +982,7 @@
 				INFOPLIST_FILE = SnookerScoreLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/SnookerScoreLite",
-					"$(PROJECT_DIR)",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
