@@ -83,19 +83,11 @@
 			<array>
 				<string>0</string>
 				<string>1</string>
-				<string>2</string>
-				<string>3</string>
-				<string>4</string>
-				<string>5</string>
 			</array>
 			<key>Titles</key>
 			<array>
 				<string>greenbaize</string>
-				<string>dark</string>
-				<string>light</string>
-				<string>modern</string>
-				<string>purplehaze</string>
-				<string>blur</string>
+				<string>orangejuice</string>
 			</array>
 			<key>DefaultValue</key>
 			<string></string>

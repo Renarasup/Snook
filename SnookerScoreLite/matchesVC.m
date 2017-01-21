@@ -35,6 +35,11 @@
     self.navigationController.navigationBar.backgroundColor = [UIColor clearColor];
 
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     @{NSForegroundColorAttributeName:self.skinForegroundColour }];
+    
+    
 }
 
 /* last modified 20160205 */

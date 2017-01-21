@@ -24,7 +24,8 @@
 @property (strong, nonatomic) UIColor *blueColour;
 @property (strong, nonatomic) UIColor *pinkColour;
 @property (strong, nonatomic) UIColor *blackColour;
-enum themes {greenbaize, dark, light, modern, purplehaze, blur};
+enum themes {greenbaize, orangejuice};
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
 
 @end
 
@@ -72,6 +73,13 @@ enum themes {greenbaize, dark, light, modern, purplehaze, blur};
     self.blueColour = [UIColor colorWithRed:39.0f/255.0f green:121.0f/255.0f blue:198.0f/255.0f alpha:1.0];
     self.pinkColour = [UIColor colorWithRed:201.0f/255.0f green:78.0f/255.0f blue:184.0f/255.0f alpha:1.0];
     self.blackColour = [UIColor colorWithRed:33.0f/255.0f green:33.0f/255.0f blue:33.0f/255.0f alpha:1.0];
+    
+    self.bannerView.adUnitID = @"ca-app-pub-4981400960359325/9236228291";
+    // TEST ADMOB BANNER
+    //    self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+    
+    self.bannerView.rootViewController = self;
+    [self.bannerView loadRequest:[GADRequest request]];
  
 }
 
@@ -170,18 +178,9 @@ enum themes {greenbaize, dark, light, modern, purplehaze, blur};
         
         
         
-    } else if (self.theme==dark) {
+    } else if (self.theme==orangejuice) {
         
-    } else if (self.theme==light) {
-        
-        self.playerNickName.textColor = self.skinForegroundColour;
-        self.playerEmail.textColor = self.skinForegroundColour;
-        self.breakShownLabel.textColor = self.skinForegroundColour;
-        
-    } else if (self.theme == modern) {
-        //  [self.view setBackgroundColor:[UIColor colorWithRed:45.0f/255.0f green:45.0f/255.0f blue:45.0f/255.0f alpha:1.0]];
     }
-    
     
     CAGradientLayer *gradient = [CAGradientLayer layer];
     gradient.frame = self.view.bounds;
@@ -194,8 +193,7 @@ enum themes {greenbaize, dark, light, modern, purplehaze, blur};
         gradient.colors = [NSArray arrayWithObjects:(id)[self.skinPlayer2Colour CGColor], (id)[self.skinBackgroundColour CGColor], nil];
     }
     [self.view.layer insertSublayer:gradient atIndex:0];
-    
-    
+
     
 }
 

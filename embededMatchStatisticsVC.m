@@ -17,7 +17,7 @@
 
 @implementation embededMatchStatisticsVC {
     UISwipeGestureRecognizer *swipeRight;
-    enum themes {greenbaize, dark, light, modern,purplehaze,blur};
+    enum themes {greenbaize, orangejuice};
     
 }
 
@@ -212,7 +212,7 @@
     if (self.theme == greenbaize) {
         self.background.backgroundColor = [UIColor lightGrayColor];
         
-    } else if (self.theme == purplehaze) {
+    } else if (self.theme == orangejuice) {
          self.graphStatisticView.backgroundColor = [UIColor whiteColor];
     }
     
@@ -228,9 +228,14 @@
             [self presentPlayer1Stats:0];
         }
     }
+
+    self.bannerView.adUnitID = @"ca-app-pub-4981400960359325/9236228291";
+    // TEST ADMOB BANNER
+    //    self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
     
-//    self.breakStatistcsView.backgroundColor = [UIColor clearColor];
+    self.bannerView.rootViewController = self;
     
+    [self.bannerView loadRequest:[GADRequest request]];
 
     
 }
@@ -248,7 +253,7 @@
     self.navigationController.view.backgroundColor = [UIColor clearColor];
     self.navigationController.navigationBar.backgroundColor = [UIColor clearColor];
 
-
+   
 
     
 }

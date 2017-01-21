@@ -89,6 +89,7 @@
 		3AB429071BC95E83002FE58E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB429051BC95E83002FE58E /* LaunchScreen.xib */; };
 		3AB4CF091CDF8D8700C07BD0 /* whiteblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4CF081CDF8D8700C07BD0 /* whiteblue.png */; };
 		3AC847F41BF257870028C0A2 /* snookerTableStatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC847F31BF257870028C0A2 /* snookerTableStatsView.m */; };
+		3AD0BA951E339B6500BC6C3B /* AdvertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD0BA941E339B6500BC6C3B /* AdvertVC.m */; };
 		3ADBD2001C497758001876F2 /* embededMatchStatisticsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBD1FF1C497758001876F2 /* embededMatchStatisticsVC.m */; };
 		3AEF7ED01D3B4BFC001609A7 /* matchesTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF7ECF1D3B4BFC001609A7 /* matchesTV.m */; };
 		96D22D871A1FD58100E0ADE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D22D861A1FD58100E0ADE3 /* AppDelegate.m */; };
@@ -260,6 +261,8 @@
 		3AB4CF081CDF8D8700C07BD0 /* whiteblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteblue.png; sourceTree = "<group>"; };
 		3AC847F21BF257870028C0A2 /* snookerTableStatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snookerTableStatsView.h; sourceTree = "<group>"; };
 		3AC847F31BF257870028C0A2 /* snookerTableStatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = snookerTableStatsView.m; sourceTree = "<group>"; };
+		3AD0BA931E339B6500BC6C3B /* AdvertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertVC.h; sourceTree = "<group>"; };
+		3AD0BA941E339B6500BC6C3B /* AdvertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertVC.m; sourceTree = "<group>"; };
 		3ADBD1FE1C497758001876F2 /* embededMatchStatisticsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = embededMatchStatisticsVC.h; path = ../embededMatchStatisticsVC.h; sourceTree = "<group>"; };
 		3ADBD1FF1C497758001876F2 /* embededMatchStatisticsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = embededMatchStatisticsVC.m; path = ../embededMatchStatisticsVC.m; sourceTree = "<group>"; };
 		3AEF7ECE1D3B4BFC001609A7 /* matchesTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matchesTV.h; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 		3A35C2031BD5FA5A00B89BD2 /* UIViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3AD0BA931E339B6500BC6C3B /* AdvertVC.h */,
+				3AD0BA941E339B6500BC6C3B /* AdvertVC.m */,
 				3ADBD1FE1C497758001876F2 /* embededMatchStatisticsVC.h */,
 				3ADBD1FF1C497758001876F2 /* embededMatchStatisticsVC.m */,
 				3A7379451DF3F8BB00E5D556 /* helpPageVC.h */,
@@ -823,6 +828,7 @@
 				3A1385911C580C6600ECF0EF /* snookerbreak.m in Sources */,
 				3A35C2091BD5FA8600B89BD2 /* scoreboardVC.m in Sources */,
 				3A1EC1911D3E9AAE00B2348E /* hibreak.m in Sources */,
+				3AD0BA951E339B6500BC6C3B /* AdvertVC.m in Sources */,
 				3A61EEC11C3EDB0700BEF957 /* playerDetailVC.m in Sources */,
 				3A7379441DF372D400E5D556 /* IntroPVC.m in Sources */,
 				3A35C20F1BD5FAB500B89BD2 /* DraggableView.m in Sources */,

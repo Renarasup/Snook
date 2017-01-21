@@ -23,9 +23,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-   // [GADMobileAds configureWithApplicationID:@"ca-app-pub-4981400960359325/9236228291"];
+    [GADMobileAds configureWithApplicationID:@"ca-app-pub-4981400960359325/9236228291"];
    // TEST ADMOB BANNER
-    [GADMobileAds configureWithApplicationID:@"ca-app-pub-3940256099942544/2934735716"];
+   // [GADMobileAds configureWithApplicationID:@"ca-app-pub-3940256099942544/2934735716"];
     
    
     return YES;
@@ -36,13 +36,13 @@
 
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    if (url){
+/*    if (url){
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
         NSURL *documentsURL = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
         documentsURL = [documentsURL URLByAppendingPathComponent:@"ImportedFile.ssm"];
         [data writeToURL:documentsURL atomically:YES];
-    }
+    }*/
     return YES;
 }
 
@@ -71,7 +71,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     if (![defaults objectForKey:@"theme"]) {
         [defaults setBool:NO forKey:@"isHollow"];
-        [defaults setValue:@"5" forKey:@"theme"];
+        [defaults setValue:@"1" forKey:@"theme"];
         [defaults setValue:@"147" forKey:@"celebrateBreakLimit"];
         [defaults setBool:NO forKey:@"isShotStopWatch"];
         [defaults setBool:NO forKey:@"isMenuShot"];

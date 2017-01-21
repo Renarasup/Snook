@@ -173,6 +173,7 @@
 @property (strong, nonatomic) UIColor *skinPlayer1Colour;
 @property (strong, nonatomic) UIColor *skinPlayer2Colour;
 
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
 
 @end
 
