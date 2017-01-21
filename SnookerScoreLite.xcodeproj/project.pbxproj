@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B3049FA1DF0A93A9503602 /* libPods-SnookerScoreLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8F27980AD7102A78B478A6 /* libPods-SnookerScoreLite.a */; };
 		3A037B6A1C418ED900038BC0 /* playerCellTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A037B691C418ED900038BC0 /* playerCellTVC.m */; };
 		3A0582091C455FA500E37873 /* HeadToHeadCellTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0582081C455FA500E37873 /* HeadToHeadCellTVC.m */; };
 		3A05820C1C4566B400E37873 /* HeadToHeadTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A05820B1C4566B400E37873 /* HeadToHeadTVC.m */; };
@@ -291,6 +292,7 @@
 				3A6523D71E32BD2000BA35BA /* AdSupport.framework in Frameworks */,
 				3A6101861D3C1D33001F6BF6 /* SpriteKit.framework in Frameworks */,
 				3A6172E61BC96478004B9198 /* libsqlite3.tbd in Frameworks */,
+				25B3049FA1DF0A93A9503602 /* libPods-SnookerScoreLite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,9 +960,9 @@
 				INFOPLIST_FILE = SnookerScoreLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -982,8 +984,8 @@
 				INFOPLIST_FILE = SnookerScoreLite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

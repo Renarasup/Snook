@@ -23,7 +23,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+   // [GADMobileAds configureWithApplicationID:@"ca-app-pub-4981400960359325/9236228291"];
+   // TEST ADMOB BANNER
+    [GADMobileAds configureWithApplicationID:@"ca-app-pub-3940256099942544/2934735716"];
+    
+   
     return YES;
 }
 

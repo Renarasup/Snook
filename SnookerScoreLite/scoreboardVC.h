@@ -21,6 +21,7 @@
 #import "Foundation/Foundation.h"
 #import <SpriteKit/SpriteKit.h>
 #import "celebrationSceneSKV.h"
+@import GoogleMobileAds;
 
 
 @interface scoreboardVC : UIViewController <MFMailComposeViewControllerDelegate,UIAlertViewDelegate, UIGestureRecognizerDelegate, AdjustPointsDelegate, UINavigationControllerDelegate> {
@@ -29,7 +30,7 @@
     int colourStateAtStartOfBreak;
     int colourQuantityAtStartOfBreak;
     bool importedFile;
-    ADBannerView *_adBanner;
+
 }
 
 @property (strong, nonatomic) dbHelper *db;
@@ -73,6 +74,8 @@
 -(void) endOfFrame :(bool) showprompt;
 -(void) endMatch :(NSString*) option;
 -(NSString*)getSmallImage:(NSString*)ballcolour;
+
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
 
 
 

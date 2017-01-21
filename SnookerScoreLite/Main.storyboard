@@ -130,7 +130,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" alpha="0.080000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gp-S9-NhC" userLabel="SwapPlayer">
-                                <rect key="frame" x="52" y="320" width="272" height="272"/>
+                                <rect key="frame" x="72" y="320" width="232" height="232"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.29803921570000003" green="0.85490196080000003" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -140,7 +140,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visits:0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fl5-Qi-2DZ" userLabel="Visits">
-                                <rect key="frame" x="138" y="537" width="100" height="30"/>
+                                <rect key="frame" x="138" y="497" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2SD-dO-AJe"/>
                                     <constraint firstAttribute="width" constant="100" id="r2G-Sf-gLI"/>
@@ -162,17 +162,17 @@
                                 </variation>
                             </label>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVk-D7-AyH" userLabel="PlayersBreak">
-                                <rect key="frame" x="10" y="320" width="355" height="272"/>
+                                <rect key="frame" x="10" y="320" width="355" height="232"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPY-GV-iZp">
-                                        <rect key="frame" x="42" y="0.0" width="272" height="272"/>
+                                        <rect key="frame" x="62" y="0.0" width="232" height="232"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="vPY-GV-iZp" secondAttribute="height" multiplier="1:1" id="a0W-Sc-87K"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="eUf-ou-jKw" userLabel="ActiveBreak" customClass="breakEntry">
-                                        <rect key="frame" x="42" y="0.0" width="272" height="272"/>
+                                        <rect key="frame" x="62" y="0.0" width="232" height="232"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="eUf-ou-jKw" secondAttribute="height" multiplier="1:1" id="kNc-w3-mWs"/>
@@ -524,7 +524,7 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7pL-yv-TMP" userLabel="BallsRow">
-                                <rect key="frame" x="0.0" y="602" width="375" height="65"/>
+                                <rect key="frame" x="0.0" y="552" width="375" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySF-fh-9Yg" userLabel="background">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
@@ -1030,10 +1030,17 @@
                                     <constraint firstItem="aZV-zs-eL9" firstAttribute="leading" secondItem="IVi-CE-5nn" secondAttribute="leading" id="l25-A3-ZS8"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r6O-c0-Pzh" userLabel="AdMobBanner" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="grQ-Db-AH7"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.1137254902" green="0.20784313730000001" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="BVk-D7-AyH" secondAttribute="bottom" constant="75" id="0R4-lL-Pd6"/>
+                            <constraint firstAttribute="bottom" secondItem="BVk-D7-AyH" secondAttribute="bottom" constant="115" id="0R4-lL-Pd6"/>
                             <constraint firstItem="Iid-KG-oAz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0Z6-G8-Udf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="q0Q-j7-8Fb" secondAttribute="trailing" constant="-103" id="1Dj-ok-6RQ"/>
                             <constraint firstItem="q0Q-j7-8Fb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="21g-Iv-Ibl"/>
@@ -1042,8 +1049,10 @@
                                 <variation key="heightClass=compact" constant="10"/>
                             </constraint>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q0Q-j7-8Fb" secondAttribute="bottom" id="6a1-75-2QN"/>
+                            <constraint firstItem="r6O-c0-Pzh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="74D-3p-yJ4"/>
                             <constraint firstAttribute="trailing" secondItem="Iid-KG-oAz" secondAttribute="trailing" id="8EO-gS-VSj"/>
                             <constraint firstItem="ibx-9o-5vh" firstAttribute="leading" secondItem="Snw-xa-VfU" secondAttribute="trailing" constant="5" id="BZn-Wa-bTx"/>
+                            <constraint firstAttribute="bottom" secondItem="r6O-c0-Pzh" secondAttribute="bottom" id="CjQ-NQ-Ywn"/>
                             <constraint firstItem="MsL-R4-o6o" firstAttribute="width" secondItem="8Km-uF-Tfd" secondAttribute="width" id="DQv-8e-bu4"/>
                             <constraint firstItem="0Wa-Cf-oUb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="DcI-a8-LMl"/>
                             <constraint firstItem="0Gp-S9-NhC" firstAttribute="top" secondItem="HDt-8a-IaH" secondAttribute="bottom" constant="-75" id="GFS-3s-V6z"/>
@@ -1064,8 +1073,9 @@
                             <constraint firstItem="7jH-dA-Uqi" firstAttribute="leading" secondItem="MsL-R4-o6o" secondAttribute="trailing" constant="5" id="ZAr-Pj-N5o"/>
                             <constraint firstItem="8Km-uF-Tfd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aba-Jm-G4A"/>
                             <constraint firstItem="0Gp-S9-NhC" firstAttribute="top" secondItem="zbo-VC-TiV" secondAttribute="bottom" constant="10" id="bac-pq-ApZ"/>
+                            <constraint firstAttribute="trailing" secondItem="r6O-c0-Pzh" secondAttribute="trailing" id="bi3-BZ-zI8"/>
                             <constraint firstItem="7jH-dA-Uqi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="czY-rK-MDa"/>
-                            <constraint firstAttribute="bottom" secondItem="7pL-yv-TMP" secondAttribute="bottom" id="dao-if-OK0"/>
+                            <constraint firstAttribute="bottom" secondItem="7pL-yv-TMP" secondAttribute="bottom" constant="50" id="dao-if-OK0"/>
                             <constraint firstItem="ibx-9o-5vh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="f1z-wk-mdZ"/>
                             <constraint firstItem="IVi-CE-5nn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="gAT-2x-qkf"/>
                             <constraint firstItem="Snw-xa-VfU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="gWw-xC-Hzh"/>
@@ -1196,6 +1206,7 @@
                         <outlet property="ballCollectionView" destination="7pL-yv-TMP" id="Z0L-UA-uQK"/>
                         <outlet property="ballRowDisabledView" destination="5Ea-4W-DVN" id="bq2-Ak-mIs"/>
                         <outlet property="ballsBackLabel" destination="ySF-fh-9Yg" id="iL6-il-zS9"/>
+                        <outlet property="bannerView" destination="r6O-c0-Pzh" id="Pe6-k4-j2b"/>
                         <outlet property="blackIndicator" destination="7yz-DB-QLU" id="B1Y-aJ-DHX"/>
                         <outlet property="blueIndicator" destination="d5S-jd-XMf" id="0Lz-P6-ya2"/>
                         <outlet property="blurView" destination="0Wa-Cf-oUb" id="DDn-ez-FQZ"/>
@@ -1507,24 +1518,24 @@
                                 <exclude reference="Z8u-AV-Egd"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="FBi-OY-sfU"/>
-                                <exclude reference="h8Y-i4-ffg"/>
-                                <exclude reference="LIe-R6-2aj"/>
-                                <exclude reference="NBE-R7-QJN"/>
-                                <exclude reference="puz-zV-6LH"/>
+                                <exclude reference="OsN-a6-uxm"/>
+                                <exclude reference="bvm-KO-Y7Q"/>
+                                <exclude reference="h1g-AX-Kkt"/>
+                                <exclude reference="xMI-dS-UZv"/>
                                 <exclude reference="hpE-nG-W7b"/>
                                 <exclude reference="lzP-r3-oOk"/>
                                 <exclude reference="tv1-pR-YD8"/>
                                 <exclude reference="zQA-hm-GLA"/>
                                 <exclude reference="Six-dW-Gv3"/>
                                 <exclude reference="qCO-0Q-djd"/>
+                                <exclude reference="FBi-OY-sfU"/>
+                                <exclude reference="h8Y-i4-ffg"/>
+                                <exclude reference="LIe-R6-2aj"/>
+                                <exclude reference="NBE-R7-QJN"/>
+                                <exclude reference="puz-zV-6LH"/>
                                 <exclude reference="HOn-Ob-ERh"/>
                                 <exclude reference="HVQ-Hd-y5z"/>
                                 <exclude reference="M6U-WK-ZcB"/>
-                                <exclude reference="OsN-a6-uxm"/>
-                                <exclude reference="bvm-KO-Y7Q"/>
-                                <exclude reference="h1g-AX-Kkt"/>
-                                <exclude reference="xMI-dS-UZv"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1538,24 +1549,24 @@
                                 <include reference="Z8u-AV-Egd"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="FBi-OY-sfU"/>
-                                <include reference="h8Y-i4-ffg"/>
-                                <include reference="LIe-R6-2aj"/>
-                                <include reference="NBE-R7-QJN"/>
-                                <include reference="puz-zV-6LH"/>
+                                <include reference="OsN-a6-uxm"/>
+                                <include reference="bvm-KO-Y7Q"/>
+                                <include reference="h1g-AX-Kkt"/>
+                                <include reference="xMI-dS-UZv"/>
                                 <include reference="hpE-nG-W7b"/>
                                 <include reference="lzP-r3-oOk"/>
                                 <include reference="tv1-pR-YD8"/>
                                 <include reference="zQA-hm-GLA"/>
                                 <include reference="Six-dW-Gv3"/>
                                 <include reference="qCO-0Q-djd"/>
+                                <include reference="FBi-OY-sfU"/>
+                                <include reference="h8Y-i4-ffg"/>
+                                <include reference="LIe-R6-2aj"/>
+                                <include reference="NBE-R7-QJN"/>
+                                <include reference="puz-zV-6LH"/>
                                 <include reference="HOn-Ob-ERh"/>
                                 <include reference="HVQ-Hd-y5z"/>
                                 <include reference="M6U-WK-ZcB"/>
-                                <include reference="OsN-a6-uxm"/>
-                                <include reference="bvm-KO-Y7Q"/>
-                                <include reference="h1g-AX-Kkt"/>
-                                <include reference="xMI-dS-UZv"/>
                             </mask>
                         </variation>
                     </view>
@@ -3055,7 +3066,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nh1-ho-46R">
                                 <rect key="frame" x="26" y="90" width="323" height="527"/>
-                                <mutableString key="text">Directly tapping on any ball within the RACK at the foot of the screen will add to current players break.  A player can be switched by touching their score directly.    The 'BREAK BALL' keeps sum of the active break. When a break has ended make sure the player who made the break is selected and tap the break ball to finalize.  If you make a mistake tap the 'UNDO' button.  It will prompt you to choose between canceling last shot/break or a rerack.    FOULS are added by depressing a ball in the rack for 2 seconds making sure at the same time the player who has made the foul is selected.  A number of options will be shown depending on the situation of the frame.  </mutableString>
+                                <string key="text">Directly tapping on any ball within the RACK at the foot of the screen will add to current players break.  A player can be switched by touching their score directly.    The 'BREAK BALL' keeps sum of the active break. When a break has ended make sure the player who made the break is selected and tap the break ball to finalize.  If you make a mistake tap the 'UNDO' button.  It will prompt you to choose between canceling last shot/break or a rerack.    FOULS are added by depressing a ball in the rack for 2 seconds making sure at the same time the player who has made the foul is selected.  A number of options will be shown depending on the situation of the frame.  </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3724,12 +3735,12 @@
                                                         <exclude reference="rK6-QZ-Gpb"/>
                                                         <exclude reference="bPg-tv-OwB"/>
                                                         <exclude reference="fiP-Qd-F0v"/>
+                                                        <exclude reference="834-1m-u3e"/>
+                                                        <exclude reference="T3q-x5-9w6"/>
                                                         <exclude reference="4Qs-2x-WyB"/>
                                                         <exclude reference="CfS-fn-GQS"/>
                                                         <exclude reference="NTl-Ib-qYR"/>
                                                         <exclude reference="fSW-hr-Wr3"/>
-                                                        <exclude reference="834-1m-u3e"/>
-                                                        <exclude reference="T3q-x5-9w6"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="widthClass=compact">
@@ -3744,12 +3755,12 @@
                                                         <include reference="rK6-QZ-Gpb"/>
                                                         <include reference="bPg-tv-OwB"/>
                                                         <include reference="fiP-Qd-F0v"/>
+                                                        <include reference="834-1m-u3e"/>
+                                                        <include reference="T3q-x5-9w6"/>
                                                         <include reference="4Qs-2x-WyB"/>
                                                         <include reference="CfS-fn-GQS"/>
                                                         <include reference="NTl-Ib-qYR"/>
                                                         <include reference="fSW-hr-Wr3"/>
-                                                        <include reference="834-1m-u3e"/>
-                                                        <include reference="T3q-x5-9w6"/>
                                                     </mask>
                                                 </variation>
                                             </view>
@@ -6192,7 +6203,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uDp-fE-UY8">
                                 <rect key="frame" x="10" y="90" width="355" height="527"/>
-                                <mutableString key="text">Touching the player avatars on the graph view provides current player statistics inside frame(s) and active match.   The 3 dot 'More' button next to the match/frame selection details each visit.  This allows you to step through the frame while highlighting the entry point on the graph.  Each break detail is shown.  Touching a ball in a break gives further breakdown of shot.      To the right side to the 3 dot 'More' button is the 3 lines icon.  Again only when frame statistic is shown does the view display.  It shows the detais on player visits in order of latest first. </mutableString>
+                                <string key="text">Touching the player avatars on the graph view provides current player statistics inside frame(s) and active match.   The 3 dot 'More' button next to the match/frame selection details each visit.  This allows you to step through the frame while highlighting the entry point on the graph.  Each break detail is shown.  Touching a ball in a break gives further breakdown of shot.      To the right side to the 3 dot 'More' button is the 3 lines icon.  Again only when frame statistic is shown does the view display.  It shows the detais on player visits in order of latest first. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -6262,7 +6273,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="inL-KN-crK">
                                 <rect key="frame" x="10" y="90" width="355" height="527"/>
-                                <mutableString key="text">Tapping a players avatar from the scoreboard presnts the Player Menu.  The border of the avatar is a pie-chart, Green are the proportion of match wins, red are losses and orange drawn.  It is possible to edit the current name,email or photo. touching the update  icon saves the changes and returns back to the scoreboard.    To select a different player or create a new player press the players icon 2nd from left.  The next view you can choose 'New' or select a stored player.  Back inside the player menu page you can accept that player into the current match replacing the original or discard to continue.  </mutableString>
+                                <string key="text">Tapping a players avatar from the scoreboard presnts the Player Menu.  The border of the avatar is a pie-chart, Green are the proportion of match wins, red are losses and orange drawn.  It is possible to edit the current name,email or photo. touching the update  icon saves the changes and returns back to the scoreboard.    To select a different player or create a new player press the players icon 2nd from left.  The next view you can choose 'New' or select a stored player.  Back inside the player menu page you can accept that player into the current match replacing the original or discard to continue.  </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -6332,7 +6343,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9ak-sB-LDW">
                                 <rect key="frame" x="10" y="90" width="355" height="527"/>
-                                <mutableString key="text">The next icon provides head to head detail for current player against all the players he/she has competed with. From the headTohead view you may select another opponent and see his/her headTohead details.  The next icon presents all matches that have either been played on the device or imported.  Choosing a single match opens up the familiar Statistics view.   Exporting of a match can be made from the match list by clicking the export button.  Here you can select multiple matches and export into a single email. </mutableString>
+                                <string key="text">The next icon provides head to head detail for current player against all the players he/she has competed with. From the headTohead view you may select another opponent and see his/her headTohead details.  The next icon presents all matches that have either been played on the device or imported.  Choosing a single match opens up the familiar Statistics view.   Exporting of a match can be made from the match list by clicking the export button.  Here you can select multiple matches and export into a single email. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>

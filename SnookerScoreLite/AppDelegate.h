@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GoogleMobileAds;
+
+
 @class RootViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

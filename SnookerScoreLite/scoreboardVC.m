@@ -538,6 +538,9 @@ issue with startup now controlled by onload block condition
 
     [super viewDidLoad];
     
+
+    
+    
     [self loadConfigDefaults];
     [self initDB];
     [self.db alterTableNewColumn];
@@ -661,6 +664,17 @@ issue with startup now controlled by onload block condition
         self.isPaused=false;
         
     }
+    
+    
+    
+//    self.bannerView.adUnitID = @"ca-app-pub-4981400960359325/9236228291";
+// TEST ADMOB BANNER
+    self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
+
+    self.bannerView.rootViewController = self;
+    [self.bannerView loadRequest:[GADRequest request]];
+    
+    
 }
 
 /* created 20151011 */
